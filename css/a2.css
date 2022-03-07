@@ -1,0 +1,751 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Orbitron:wght@400;500;600;700;800;900&family=Oswald:wght@200;300;400;500;600;700&family=Outfit:wght@100;200;300;400;500;600;700;800&family=Pacifico&family=Poppins:wght@100;300;500;600;700;900&display=swap');
+
+body{
+    background-color: rgb(0, 0, 0);
+    font-family: Orbitron;
+    color: white;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/* NAVBAR */
+.navbar{
+    margin-bottom: 0px;
+    border: 0;
+    background-color: rgba(0, 0, 0, 0);
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+
+.navbar-default .navbar-nav > li > a {
+    color: white;
+    font-weight: bold;
+    margin: 5px 10px;
+    transition: all 0.5s ease;
+}
+
+.navbar-default .navbar-nav > li > a:hover{
+    color: rgb(255, 0, 0);
+    transition: all 0.5s ease;
+} 
+
+/* transition: partir-se;  */
+
+
+
+
+
+
+
+/* FLETXA */
+.arrow{
+    color:white; 
+    font-size: 10em; 
+    transform: rotate(45deg); 
+    margin-left: 42%;
+}
+
+
+
+/* NOM */
+#nom{
+    margin-top: 50px;
+}
+
+#nom h1{
+    color: white;
+    font-size: 8em;
+    text-shadow: 0px 5px 10px rgba(255, 0, 0, 0.698);
+}
+
+#nom h1.desplaçat{
+    margin: 0;
+    padding-left: 3%;
+}
+
+.caracteristiques ul{
+    margin-top: -115px;
+}
+
+.caracteristiques ul li{
+    list-style: none;
+    margin-left: 46%;
+    font-size: 1.5em;
+}
+
+
+
+
+/* PRESENTACIO */
+#presentacio{
+    margin-top: 80px;
+    margin-bottom:100px;
+    height: 550px;
+}
+
+.img{
+    width: 25%;
+    height: 466px;
+    border-radius: 400px;
+    left: 347px;
+    top: 650px;
+    position: absolute;
+    z-index: -1;
+}
+.edat{
+    margin-left: 300px;
+}
+
+#presentacio h2{
+    font-size: 8em;
+    display: inline-block;
+    margin: 0;
+    text-shadow: 0px 5px 10px rgba(255, 0, 0, 0.698);
+}
+
+.anys{
+    font-size: 3em;
+    display: inline-block;
+}
+
+
+.info{
+    margin-left: 500px;
+    margin-top: 100px;
+    font-size: 1.5em;
+    width: 570px;
+}
+
+#presentacio b a{
+    color: rgb(255, 255, 255);
+    font-size: 1.2em;
+    transition: all 0.5s ease;
+}
+
+#presentacio b a:hover{
+    color:rgb(255, 0, 0);
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+
+
+
+
+
+/* ABOUT */
+#about{
+    margin-top: 200px;
+    margin-bottom:100px;
+    transition: all 0.5s ease;
+}
+
+#about h1{
+    font-size: 6em;
+    margin-bottom: 200px;
+    text-shadow: 0px 5px 10px rgba(255, 0, 0, 0.698);
+}
+
+.row-about{
+    width: 100%;
+}
+
+.img-text{
+    display: flex;
+    margin-bottom: 150px;
+}
+
+.img-text .col-lg-5 {
+    height: 100%;
+    width: 100%;
+    padding-top: 90px;
+}
+
+.imgs{
+    width: 600px;
+    height: 200px;
+    box-shadow: 0px 0px 20px rgb(255, 255, 255);
+    border-radius: 15px;
+    transition: all 0.5s ease;
+    filter: grayscale(80%);
+}
+.imgs:hover {
+    width: 600px;
+    height: 200px;
+    box-shadow: 0px 0px 20px rgb(255, 255, 255);
+    border-radius: 15px;
+    transition: all 0.5s ease;
+    filter: grayscale(0%);
+}
+
+
+.text1{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.text2{
+    width: 100%;
+    padding-left: 300px;
+    padding-top: 60px;
+}
+
+.text2-dreta{
+    width: 100%;
+    padding-left: 0px;
+    padding-top: 60px;
+}
+
+.text3{
+    width: 100%;
+    padding-left: 250px;
+    padding-top: 60px;
+}
+
+
+/* ABOUT2 */
+#about2{
+    display: none;
+}
+
+
+/* SKILLS */
+#skills{
+    margin-top: 200px;
+    margin-bottom:100px;
+    
+}
+
+#skills h1{
+    font-size: 7em;
+    margin-bottom: 200px;
+    text-shadow: 0px 5px 10px rgba(255, 0, 0, 0.698);
+}
+
+.titol{
+    font-weight: bold;
+    font-size: 3em;
+}
+
+
+
+
+
+
+/* PROJECTS */
+#projects{
+    margin-top: 400px;
+    margin-bottom:100px;
+    height: 500px;
+}
+
+#projects h1{
+    font-size: 6em;
+    margin-bottom: 200px;
+    text-shadow: 0px 5px 10px rgba(255, 0, 0, 0.698);
+}
+
+
+.carousel {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d; 
+    animation: rotate360 60s infinite forwards linear;
+  }
+
+  .carousel__face { 
+    position: absolute;
+    width: 300px;
+    height: 187px;
+    top: 20px;
+    left: 10px;
+    right: 10px;
+    background-size: cover;
+    box-shadow:inset 0 0 0 2000px rgba(0,0,0,0.5);
+    display: flex;
+  }
+
+  #projects span {
+   opacity: 0;
+   transition: all 0.5s;
+  }
+
+  #projects .carousel__face:hover  span{
+    opacity: 1;
+    margin: auto;
+    font-size: 2rem;
+  }
+  
+  .container-pers {
+    position: relative;
+    width: 320px;
+    margin: 100px auto 0 auto;
+    perspective: 1000px;
+  }
+
+
+
+  .carousel__face:nth-child(1) {
+    background-image: url("../img/Morell\'s\ shop.png");
+    transform: rotateY(  0deg) translateZ(430px); }
+  .carousel__face:nth-child(2) { 
+    background-image: url("../img/bonativo.png");
+      transform: rotateY( 40deg) translateZ(430px); }
+  .carousel__face:nth-child(3) {
+    background-image: url("../img/act3.png");
+    transform: rotateY( 80deg) translateZ(430px); }
+  .carousel__face:nth-child(4) {
+    background-image: url("../img/GestorDeNoticies.png");
+    transform: rotateY(120deg) translateZ(430px); }
+  .carousel__face:nth-child(5) { 
+    background-image: url("../img/halloween.png");
+   transform: rotateY(160deg) translateZ(430px); }
+  .carousel__face:nth-child(6) { 
+    background-image: url("../img/mario.png");
+   transform: rotateY(200deg) translateZ(430px); }
+  .carousel__face:nth-child(7) { 
+    background-image: url("../img/validacio.png");
+   transform: rotateY(240deg) translateZ(430px); }
+  .carousel__face:nth-child(8) {
+    background-image: url("../img/cosmetica.png");
+    transform: rotateY(280deg) translateZ(430px); }
+  .carousel__face:nth-child(9) {
+    background-image: url("../img/portatil.png");
+    transform: rotateY(320deg) translateZ(430px); }
+
+    @keyframes rotate360 {
+        from {
+          transform: rotateY(0deg);
+        }
+        to {
+          transform: rotateY(-360deg);
+        }
+      }
+
+
+
+
+
+
+
+
+
+
+
+
+/* CONTACT */
+#contact{
+    margin-top: 600px;
+    margin-bottom:200px;
+   
+}
+
+#contact h1{
+    font-size: 6em;
+    margin-bottom: 100px; 
+    text-shadow: 0px 5px 10px rgba(255, 0, 0, 0.698);
+}
+
+form{    
+    background-color: transparent;
+    width: 70%; 
+    padding: 0px 40px;
+}
+
+#contact form input[type="text"] {
+    width: 100%;
+    padding: 10px 10px;
+    color: rgb(195, 186, 186);
+    border: 3px solid rgb(104, 99, 99);
+    background-color: transparent;
+    margin-bottom: 20px;
+}
+
+#contact form textarea {
+    width: 100%;
+    border: 3px solid rgb(104, 99, 99);
+    padding: 10px 10px;
+    color: rgb(235, 235, 235);
+    background-color: transparent;
+    resize: none;
+}
+
+#contact form input[type="submit"] {
+    width: 20%;
+    border: 2px solid rgb(104, 99, 99);
+    padding: 10px 10px;
+    color: rgb(195, 186, 186);
+    background-color: transparent;
+    margin-bottom: 20px;
+    transition: all 0.5s ease;
+}
+
+
+#contact form input:hover[type="submit"] {
+    width: 20%;
+    border: 2px solid rgb(255, 0, 0);
+    padding: 10px 10px;
+    color: rgb(255, 4, 4);
+    background-color: transparent;
+    margin-bottom: 20px;
+    transition: all 0.5s ease;
+}
+
+
+
+
+
+
+
+
+
+
+/* FOOTER */
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    margin-top: 300px;
+    margin-bottom: 50px;
+}
+#footer{
+    display: flex;
+}
+
+#footer2{
+    display: none;
+}
+
+footer a{
+    color: white; 
+    font-weight: bold;
+    margin-right: 50px;
+    transition: all 0.5s ease;
+}
+
+footer a.facebook{
+    transition: all 0.5s ease;
+}
+footer a.dreta{
+    transition: all 0.5s ease;
+}
+
+footer .esquerre a.facebook:hover{
+    text-decoration: none;
+    color: transparent ; 
+    background: -webkit-linear-gradient(0deg ,#2c46f3, #49BCF6);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.5s ease;
+}
+
+footer .esquerre a.instagram:hover{
+    text-decoration: none;
+    color: transparent ; 
+    background: -webkit-linear-gradient(45deg, #ffd050 0%,#e6683c 20%,#dc2743 40%,#cc2366 60%,#bc1888 80%, rgb(44, 44, 255) 100%); 
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.5s ease;
+}
+
+footer .dreta a:hover{
+    text-decoration: none;
+    color: rgb(255, 0, 0); 
+    transition: all 0.5s ease;
+}
+
+.dreta{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    transition: all 0.5s ease;
+}
+
+.esquerre{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    transition: all 0.5s ease;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MEDIA QUERY'S */
+
+@media (max-width: 500px){
+    /* ===================================== navbar =========================================== */
+    
+
+    /*====================================== nom i cognom =======================================*/
+    #nom h1{
+        font-size: 4em;
+        margin-left: 30px;
+    }
+    #nom h1.desplaçat{
+        margin: 0;
+        padding-left: 15%;
+    }
+    .caracteristiques ul{
+        margin-top: 10px;
+        padding: 0;
+    }
+    .caracteristiques ul li{
+        list-style: none;
+        margin-left: 0px !important;
+        margin-bottom: 10px;
+        font-size: 1.5em;
+        text-align: center;
+    }
+
+
+  /*====================================== fletxa =======================================*/
+    .arrow{
+        font-size: 8em;
+        margin-top: 50px;
+        margin-bottom: 20px;
+        margin-left: 35%;
+        transform: rotate(90deg); 
+    }
+
+
+    /*====================================== text aficions =======================================*/
+    .caracteristiques ul li{
+        font-size: 1em;
+        width: 100%;
+        margin-left: 60%;
+    }
+
+
+    /* ==================================== presentacio ======================================== */
+    #presentacio{
+        margin-top: 80px;
+        margin-bottom:0px;
+        height: 550px;
+    }
+    .img{
+        width: 50%;
+        height: 200px;
+        border-radius: 400px;
+        left: 0px;
+        top: 550px;
+        position: absolute;
+        z-index: -1;
+    }
+    .edat{
+        margin-left: 170px;
+        margin-top: 80px;
+    }
+    #presentacio h2{
+        font-size: 4.8em;
+        display: inline-block;
+        margin: 0;
+        text-shadow: 0px 5px 10px rgba(255, 0, 0, 0.698);
+    }
+    .anys{
+        font-size: 1.7em;
+        display: inline-block;
+    }
+    .info{
+        margin-left: 10px;
+        margin-right: 0px;
+        margin-top: 80px;
+        font-size: 1.2em;
+        width: 350px;
+    }
+    #presentacio b a{
+        color: rgb(255, 0, 0);
+        font-size: 1.2em;
+    }
+
+
+    /* ====================================== about ====================================== */
+    #about{
+        display: none;
+    }
+    #about2{
+        display: block;
+        margin-top: 100px;
+    }
+    #about2 h1{
+        font-size: 3em;
+        margin-bottom: 100px;
+        text-align: center;
+    }
+    .img-text{
+        display: flex;
+        flex-direction: column;
+    }
+    #about2 .imgs{
+        width: 100%;
+        height: 130px;
+        filter: grayscale(0%);
+    }
+    #about .col-xs-12{
+        padding: 0px;
+    }
+    #about2 .text1{
+        margin-top: 40px;
+        padding: 0px;
+        margin-bottom: 20px;
+        font-size: 1.7em;
+    }
+    #about2 .text2{
+        padding: 0px;
+    }
+
+    #about2 .text2-dreta{
+        padding: 0px;
+    }
+
+    #about2 .text3{
+        padding: 0px;
+    }
+    #about2 .text2-dreta{
+        padding: 0px;
+    }
+
+
+    /*====================================== skills =======================================*/
+    #skills{
+        margin: 0px;
+    }
+    #skills h1{
+        font-size: 3em;
+        margin-bottom: 100px;
+        text-align: center;
+    }
+    #skills p.titol{
+        font-size: 2em;
+        margin-top: 50px;
+    }
+    #skills p{
+        font-size: 1em;
+    }
+
+
+    /*====================================== projects =======================================*/
+    #projects{
+        margin-top: 200px;
+    }
+
+    #projects h1{
+        font-size: 3em;
+        margin-bottom: 100px;
+        text-align: center;
+    }
+    .carousel__face { 
+        position: absolute;
+        width: 300px;
+        height: 187px;
+        top: 20px;
+        left: 10px;
+        right: 10px;
+        background-size: cover;
+        box-shadow:inset 0 0 0 2000px rgba(0,0,0,0.5);
+        display: flex;
+      }
+
+
+
+    /*====================================== contact =======================================*/
+   #contact{
+       margin-top: 200px;
+       margin-bottom: 0px;
+   }
+
+    #contact h1{
+        font-size: 3em;
+        margin-bottom: 50px; 
+    }
+    form{    
+        width: 100%; 
+    }
+    #contact form input[type="text"] {
+        width: 100%;
+        margin-top: 0px;
+        margin-bottom: 5px;
+    }
+    #contact form textarea {
+        width: 100%;
+        border: 3px solid rgb(104, 99, 99);
+        padding: 10px 10px;
+        color: rgb(235, 235, 235);
+        background-color: transparent;
+        resize: none;
+    }
+    #contact form input[type="submit"] {
+        width: 40%;
+        color:rgb(255, 0, 0);
+        border: 3px solid rgb(255, 0, 0);
+    }
+
+
+    /*====================================== footer =======================================*/
+    footer{
+        font-size: 0.7em;
+        margin-left: 0;
+    }
+    #footer2{
+        margin-top: 100px;
+    }
+    footer a{
+        margin: 0;
+    }
+    footer a.facebook{
+        text-decoration: none;
+        color: transparent ; 
+        background: -webkit-linear-gradient(0deg ,#2c46f3, #49BCF6);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    footer a.instagram{
+        text-decoration: none;
+        color: transparent ; 
+        background: -webkit-linear-gradient(45deg, #ffd050 0%,#e6683c 20%,#dc2743 40%,#cc2366 60%,#bc1888 80%, rgb(44, 44, 255) 100%); 
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    footer a{
+        text-decoration: none;
+        color: rgb(255, 0, 0); 
+    }
+    #footer{
+        display: none;
+    }
+    #footer2{
+        display: flex;
+    }
+    .margin-bottom{
+        margin-bottom: 20px;
+    }
+}
