@@ -182,7 +182,7 @@ html{
 
 
 .text1{
-    font-size: 1.5em;
+    font-size: 2em;
     font-weight: bold;
 }
 
@@ -227,13 +227,44 @@ html{
 .titol{
     font-weight: bold;
     font-size: 3em;
+    margin-bottom: 20px;
 }
 
+.logoLlarg{
+    width: 70px;
+    height: 50px;
+    margin-right: 8px;
+}
+.logoCurt{
+    width: 50px;
+    height: 50px;
+    margin-right: 8px;
+}
+.logoPrim{
+    width: 40px;
+    height: 50px;
+    margin-right: 8px;
+}
 
+.marginL{
+    margin-left: 90px;
+}
+.marginL2{
+    margin-left: 120px;
+}
+.marginL3{
+    margin-left: 80px;
+}
 
-
-
-
+.marginPHP{
+    margin-left: 115px;
+}
+.marginCSS{
+    margin-left: 95px;
+}
+.marginF{
+    margin-left: 85px;
+}
 /* PROJECTS */
 #projects{
     margin-top: 400px;
